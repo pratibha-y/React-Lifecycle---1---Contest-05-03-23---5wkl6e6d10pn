@@ -12,11 +12,12 @@ class App extends React.Component {
     super(props)
     this.state = {count:0}
     this.handleClick = this.handleClick.bind(this);
-    colsole.log("rerendered");
-
+    
   }
 
   render() {
+    colsole.log("rerendered");
+
     return (
       <div id="main">
           <div id="count">{this.state.count}</div>
