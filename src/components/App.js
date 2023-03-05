@@ -15,8 +15,8 @@ class App extends React.Component {
     
   }
 
-  render() {
-    colsole.log("rerendered");
+  componentDidUpdate() {
+    colsole.log("rendered");
 
     return (
       <div id="main">
