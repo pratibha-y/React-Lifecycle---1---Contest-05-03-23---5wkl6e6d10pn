@@ -16,7 +16,7 @@ class App extends React.Component {
   }
 
   render() {
-    colsole.log("rendered");
+    console.log("rendered");
   }
 
     return (
